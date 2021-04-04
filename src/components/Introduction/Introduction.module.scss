@@ -7,3 +7,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.iconContainer {
+    > div {
+        display: inline-block;
+        margin: 10px;
+    }
+}
