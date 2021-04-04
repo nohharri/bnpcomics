@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Introduction.module.scss';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faReddit, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import SocialMediaLink from '../SocialMediaLink/SocialMediaLink';
 
 export default class Introduction extends React.Component {
@@ -13,6 +13,7 @@ export default class Introduction extends React.Component {
                 </div>
                 <div className={styles.iconContainer}>
                     <SocialMediaLink icon={faInstagram} followers={1392} url={"https://www.instagram.com/bnpcomics/"} />
+                    <SocialMediaLink icon={faReddit} followers={22864} url={"https://www.reddit.com/user/bnpcomics"} />
                     <SocialMediaLink icon={faFacebook} followers={47} url={"https://www.facebook.com/bitsnpiecescomics"} />
                     <SocialMediaLink icon={faTwitter} followers={198} url={"https://twitter.com/bnpcomics"} />
                 </div>
